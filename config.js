@@ -13,9 +13,9 @@ window.MFA_MODE = 'email';
 
 // Envio de e-mail via EmailJS (https://www.emailjs.com). Preencha os 3 campos (passo a passo no README).
 window.EMAILJS = {
-  serviceId: '',   // ex.: 'service_ir114ym'
-  templateId: '',  // ex.: 'template_83oc4nn'
-  publicKey: ''    // ex.: 'raeqOvhYzRqTqC6rw'
+  serviceId: 'service_ir114ym',   // ex.: 'service_ir114ym'
+  templateId: 'template_83oc4nn',  // ex.: 'template_83oc4nn'
+  publicKey: 'raeqOvhYzRqTqC6rw'    // ex.: 'raeqOvhYzRqTqC6rw'
 };
 
 // Perfis automáticos por e-mail (só no modo local). Quem se cadastrar com um destes e-mails
