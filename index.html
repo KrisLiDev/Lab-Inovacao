@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Smart Automation</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="logo"><i>SA</i><div>Smart Automation</div></div>
+  <nav id="nav"></nav>
+</header>
+
+<main id="site">
+<section class="hero">
+  <span class="tag">Brasília – DF</span>
+  <h1>Automação e IA para <span>pequenos negócios locais</span></h1>
+  <p>Atendimento automático 24h, agenda, financeiro, marketing e presença digital em um só lugar, simples e acessível.</p>
+  <button onclick="go('painel');painel()">Ir para meu painel</button>
+</section>
+
+<section id="solucoes">
+  <h2>O que oferecemos</h2><p class="sub">Módulos de automação que se encaixam no tamanho do seu negócio.</p>
+  <div class="grid">
+    <div class="card"><h3>IA</h3><p>Respostas inteligentes e triagem de clientes.</p></div>
+    <div class="card"><h3>WhatsApp</h3><p>Atendimento automático e confirmação de presença.</p></div>
+    <div class="card"><h3>E-mail</h3><p>Comunicação organizada com seus clientes.</p></div>
+    <div class="card"><h3>Agendas</h3><p>Horários, lembretes e redução de faltas.</p></div>
+    <div class="card"><h3>Finanças</h3><p>Controle de faturamento e cobranças.</p></div>
+    <div class="card"><h3>Instagram</h3><p>Automação de interações e conteúdo.</p></div>
+  </div>
+</section>
+
+<section id="planos">
+  <h2>Planos</h2><p class="sub">Mensalidade recorrente, sem complicação.</p>
+  <div class="grid">
+    <div class="card"><h3>Micro</h3><div class="preco">R$ 100</div><p>Para microempresas começando a automatizar.</p></div>
+    <div class="card"><h3>Intermediário</h3><div class="preco">R$ 180</div><p>Mais módulos e integrações.</p></div>
+    <div class="card"><h3>Avançado</h3><div class="preco">R$ 280+</div><p>Solução completa e personalizada.</p></div>
+  </div>
+</section>
+
+<section id="objetivos">
+  <h2>Nossos objetivos</h2><p class="sub">Metas SMART do projeto.</p>
+  <div class="grid">
+    <div class="card"><ul><li>100 clientes ativos em 12 meses</li><li>+20% de faturamento por trimestre</li></ul></div>
+    <div class="card"><ul><li>NPS acima de 85%</li><li>3 cidades do entorno do DF em 3 anos</li></ul></div>
+  </div>
+</section>
+
+<section id="equipe">
+  <h2>Equipe</h2><p class="sub">Quem faz a Smart Automation acontecer.</p>
+  <div class="grid">
+    <div class="card"><h3>Kristian Lima</h3><p>Marketing e Parcerias</p></div>
+    <div class="card"><h3>Leticia Santiago</h3><p>Operações e Atendimento</p></div>
+    <div class="card"><h3>Thauana Alves</h3><p>Tecnologia e Automação</p></div>
+    <div class="card"><h3>Thayná Damasceno</h3><p>Financeiro e Projetos</p></div>
+    <div class="card"><h3>Wesley Aragão</h3><p>Suporte Técnico e Implantação</p></div>
+  </div>
+</section>
+</main>
+
+<section id="auth">
+  <div class="box" id="authBox"></div>
+</section>
+
+<section id="painel"></section>
+
+<footer>Smart Automation • Projeto acadêmico – Laboratório de Inovação</footer>
+
+<script src="config.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
