@@ -41,19 +41,6 @@ Existe também uma versão com backend (Node.js, Express e MySQL) na pasta `back
 - `index.html`, `style.css`, `script.js`, `config.js` – site (GitHub Pages)
 - `backend/` – API, `schema.sql` e `.env.example` (opcional)
 
-## Configuração do envio de e-mail (para a equipe)
-1. Crie conta grátis em https://www.emailjs.com.
-2. Email Services → Add New Service → Gmail → conecte uma conta → copie o **Service ID**.
-3. Email Templates → Create New Template. Assunto: `Seu código de verificação - Smart Automation`.
-   Conteúdo: `Olá, {{nome}}! Seu código de verificação é: {{codigo}}. Ele vale por 5 minutos.`
-   Campo **To Email**: `{{to_email}}`. Salve e copie o **Template ID**.
-4. Account → General → copie a **Public Key**.
-5. Cole os 3 valores em `window.EMAILJS` no `config.js`.
-6. Em `PERFIS_POR_EMAIL`, coloque o e-mail de quem deve entrar como `administrador` ou `gestor`.
-7. Publique: Settings → Pages → Deploy from branch → `main` / root.
-
-Plano gratuito do EmailJS: 200 e-mails por mês.
-
 ## Rodar a versão com backend (opcional)
 1. Instale Node.js e MySQL e execute `backend/schema.sql` no MySQL Workbench.
 2. Em `backend/`, copie `.env.example` para `.env` e preencha usuário e senha do MySQL.
